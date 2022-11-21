@@ -22,6 +22,6 @@ elif(x == 4):
     num2 =  int(input("Digite um numero: "))
 
     print(f"{num1} / {num2} = {num1 / num2}")
-else():
+else:
     print("Opçao nao existente")
     
