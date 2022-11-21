@@ -7,8 +7,21 @@ if(x == 1):
 
     print(f"{num1} + {num2} = {num1 + num2}")
 
-if(x == 2):
+elif(x == 2):
     num1 =  int(input("Digite um numero: "))
     num2 =  int(input("Digite um numero: "))
 
     print(f"{num1} - {num2} = {num1 - num2}")
+elif(x == 3):
+    num1 =  int(input("Digite um numero: "))
+    num2 =  int(input("Digite um numero: "))
+
+    print(f"{num1} x {num2} = {num1 * num2}")
+elif(x == 4):
+    num1 =  int(input("Digite um numero: "))
+    num2 =  int(input("Digite um numero: "))
+
+    print(f"{num1} / {num2} = {num1 / num2}")
+else():
+    print("Opçao nao existente")
+    
